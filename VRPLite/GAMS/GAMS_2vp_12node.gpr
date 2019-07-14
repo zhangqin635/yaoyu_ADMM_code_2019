@@ -1,0 +1,23 @@
+[PROJECT]
+
+[OPENWINDOW_1]
+MAXIM=0
+TOP=5
+LEFT=1
+HEIGHT=753
+WIDTH=811
+
+[RP:VRP_EG.2]
+1=
+
+[RP:C_SSP]
+1=
+
+[RP:UNTITLED_1]
+1=
+
+[MRUFILES]
+1=D:\study\论文\zhou\文件资料\VRPLite\GAMS\Untitled_1.gms
+2=D:\study\论文\zhou\文件资料\Column Generation\gams\Graph_CG\c_ssp.gms
+3=D:\study\论文\zhou\文件资料\VRPLite\GAMS\VRP_eg.2.gms
+4=D:\study\论文\zhou\文件资料\VRPLite\GAMS\VRP_eg.2.lst

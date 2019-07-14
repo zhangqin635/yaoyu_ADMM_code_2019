@@ -1,0 +1,96 @@
+
+--- Job VRP_eg.2.gms Start 04/16/19 22:47:45 24.6.1 r55820 WEX-WEI x86 64bit/MS Windows
+GAMS 24.6.1   Copyright (C) 1987-2016 GAMS Development. All rights reserved
+Licensee: School of Sustainable Engineering              G150407:1621AO-WIN
+          Arizona State University                                  DC11708
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- VRP_eg.2.gms(247) 3 Mb
+--- Starting execution: elapsed 0:00:00.008
+--- VRP_eg.2.gms(210) 4 Mb
+--- Generating MIP model customized_bueses_optimization
+--- VRP_eg.2.gms(234) 9 Mb
+---   2,885 rows  7,297 columns  21,945 non-zeroes
+---   7,296 discrete-columns
+--- Executing CPLEX: elapsed 0:00:00.107
+
+IBM ILOG CPLEX   24.6.1 r55820 Released Jan 18, 2016 WEI x86 64bit/MS Windows 
+--- GAMS/Cplex licensed for continuous and discrete problems.
+Cplex 12.6.3.0
+
+Reading data...
+Starting Cplex...
+Space for names approximately 0.32 Mb
+Use option 'names no' to turn use of names off
+Tried aggregator 15 times.
+MIP Presolve eliminated 2359 rows and 6319 columns.
+Aggregator did 339 substitutions.
+Reduced MIP has 187 rows, 639 columns, and 1315 nonzeros.
+Reduced MIP has 639 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (20.61 ticks)
+Found incumbent of value 49.500000 after 0.06 sec. (22.58 ticks)
+Probing time = 0.01 sec. (1.59 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 187 rows, 639 columns, and 1315 nonzeros.
+Reduced MIP has 639 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.72 ticks)
+Probing time = 0.02 sec. (1.57 ticks)
+Clique table members: 1321.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.20 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =           -74.000000
+Iteration:    62   Dual objective     =            31.000000
+Iteration:   124   Dual objective     =            37.500000
+Iteration:   186   Dual objective     =            41.500000
+Root relaxation solution time = 0.00 sec. (1.64 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           49.5000     -147.5000           397.98%
+Found incumbent of value 49.500000 after 0.11 sec. (29.22 ticks)
+*     0     0      integral     0       42.0000       42.0000      197    0.00%
+Elapsed time = 0.11 sec. (29.32 ticks, tree = 0.00 MB, solutions = 2)
+Found incumbent of value 42.000000 after 0.11 sec. (29.32 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.11 sec. (29.58 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.11 sec. (29.58 ticks)
+MIP status(101): integer optimal solution
+Cplex Time: 0.11sec (det. 29.60 ticks)
+Fixing integer variables, and solving final LP...
+Tried aggregator 1 time.
+LP Presolve eliminated 2885 rows and 7297 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (10.11 ticks)
+Fixed MIP status(1): optimal
+Cplex Time: 0.00sec (det. 11.27 ticks)
+
+Proven optimal solution.
+
+MIP Solution:           42.000000    (197 iterations, 0 nodes)
+Final Solve:            42.000000    (0 iterations)
+
+Best possible:          42.000000
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Restarting execution
+--- VRP_eg.2.gms(234) 3 Mb
+--- Reading solution for model customized_bueses_optimization
+--- VRP_eg.2.gms(234) 4 Mb
+--- Executing after solve: elapsed 0:00:00.748
+--- VRP_eg.2.gms(247) 4 Mb
+--- Putfile output_process D:\study\论文\zhou\文件资料\VRPLite\GAMS\output_eg2.csv
+*** Status: Normal completion
+--- Job VRP_eg.2.gms Stop 04/16/19 22:47:47 elapsed 0:00:01.249
